@@ -1,7 +1,7 @@
 "Items" {
 	"The Welder's Gun" {
 		"name" "The Welder's Gun"
-		"defindex" "22"
+		"defindex" "30666" // C.A.P.P.E.R.
 		"item_class" "tf_weapon_pistol"
 		"used_by_classes" {
 			"engineer" "secondary"
@@ -9,11 +9,11 @@
 		"keep_static_attrs" "0"
 		"attributes_game" {
 			"allowed in medieval mode" "0"
-			"damage bonus bullet vs sentry target" "1.35" // +35%
 			"damage bonus" "1.75" // +75%
+			"damage bonus bullet vs sentry target" "1.35" // +35%
 			"weapon spread bonus" "0.85" // +15% accuracy
-			"clip size penalty" "0.5" // -50%
 			"fire rate penalty" "1.7" // -70%
+			"clip size penalty" "0.5" // -50%
 			"maxammo secondary reduced" "0.5" // -50%
 		}
 		// "attributes_custom" {
@@ -21,12 +21,12 @@
 		// }
 		"description"	"More accurate, slower firing Pistol alternative.
 						Creator: Karma Charger
-						(+) 15% more accurate
-						(+) 35% increased damage to your sentry's target
 						(+) +75% damage bonus
+						(+) 35% increased damage to your sentry's target
+						(+) 15% more accurate
+						(-) 70% slower firing speed
 						(-) 50% clip size
-						(-) +50% max secondary ammo on wearer
-						(-) 70% slower firing speed"
-		// (i) Custom model by crazy-g
+						(-) +50% max secondary ammo on wearer"
+						// (i) Custom model by crazy-g
 	}
 }

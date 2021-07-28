@@ -2,8 +2,8 @@
 	// Requires reload_full_clip_at_once.smx
 	"The Trench Clearer" {
 		"name" "The Trench Clearer"
-		"defindex" "10"
-		"item_class" "tf_weapon_shotgun_soldier"
+		"defindex" "199" // Shotgun
+		"item_class" "tf_weapon_shotgun"
 		"used_by_classes" {
 			"soldier" "secondary"
 		}
@@ -11,8 +11,8 @@
 		"attributes_game" {
 			"allowed in medieval mode" "0"
 			"fire rate bonus" "0.9" // +10%
-			"damage penalty" "0.9" // -10%
 			"maxammo secondary increased" "1.125" // +12%
+			"damage penalty" "0.9" // -10%
 		}
 		"attributes_custom" {
 			"reload full clip at once" "2" // 0 load all, 1 pistol, 2 garand, 3 rifle

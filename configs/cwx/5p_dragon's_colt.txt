@@ -1,7 +1,7 @@
 "Items" {
 	"The Dragon's Colt" {
 		"name" "The Dragon's Colt"
-		"defindex" "209"
+		"defindex" "294" // Lugermorph
 		"item_class" "tf_weapon_pistol"
 		"used_by_classes" {
 			"scout" "secondary"

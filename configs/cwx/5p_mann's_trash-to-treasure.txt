@@ -1,9 +1,9 @@
 "Items" {
+	// Custom flamethrowers have extremely limited range.
 	// Requires airblast_projectiles_restores_health.smx
 	// "The Mann's Trash-to-Treasure" {
-		// Custom flamethrowers do not work for some reason.
 		// "name" "The Mann's Trash-to-Treasure"
-		// "defindex" "21"
+		// "defindex" "21" // Flame Thrower
 		// "item_class" "tf_weapon_flamethrower"
 		// "used_by_classes" {
 			// "pyro" "primary"
@@ -12,8 +12,8 @@
 		// "attributes_game" {
 			// "allowed in medieval mode" "0"
 			// "airblast_destroy_projectile" "1"
-			// "airblast cost increased" "1.5" // +50%
 			// "maxammo secondary increased" "1.25" // +25%
+			// "airblast cost increased" "1.5" // +50%
 		// }
 		// "attributes_custom" {
 			// "airblast projectiles restores health" "85"

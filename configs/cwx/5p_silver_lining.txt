@@ -1,28 +1,27 @@
 "Items" {
-	// Requires damage_increase_on_hit.smx
-	// "The Silver Lining" {
-		// "name" "The Silver Lining"
-		// "defindex" "460"
-		// "item_class" "tf_weapon_revolver"
-		// "used_by_classes" {
-			// "spy" "secondary"
-		// }
-		// "keep_static_attrs" "0"
-		// "attributes_game" {
-			// "allowed in medieval mode" "0"
-			// "clip size penalty" "0.5" // -50%
-			// "reload time increased" "1.5" // +50%
-		// }
-		// "attributes_custom" {
-			// "damage increase mult on hit" "amount=0.25 max=2 decay_start=12 reset_on_kill=0" // +25% on hit, max +200%, lose after 6 sec or on kill
+	// Requires custom_status_hud.smx and damage_increase_on_hit.smx
+	"The Silver Lining" {
+		"name" "The Silver Lining"
+		"defindex" "460" // Revolver
+		"item_class" "tf_weapon_revolver"
+		"used_by_classes" {
+			"spy" "secondary"
+		}
+		"keep_static_attrs" "0"
+		"attributes_game" {
+			"allowed in medieval mode" "0"
+			"clip size penalty" "0.5" // -50%
+			"reload time increased" "1.5" // +50%
+		}
+		"attributes_custom" {
+			"damage increase mult on hit" "amount=0.25 max=2 decay_start=12 reset_on_kill=0" // +25% on hit, max +200%, lose after 6 sec or on kill
 			// "weaponmodel override" "models/weapons/c_models/c_raging_bull/c_raging_bull.mdl"
-		// }
-		// "description"	"Place shots well and this weapon will get more powerful.
-						// FOR JACK5 ONLY. Damage increasing on hit doesn't show on HUD and is not installed.
-						// Creator: DoMess
-						// (-) 50% clip size
-						// (-) 50% slower reload time"
+		}
+		"description"	"Place shots well and this weapon will get more powerful.
+						Creator: DoMess
+						(+) Each hit adds +25% to damage up to +200%, reset after 12 seconds without hit
+						(-) 50% clip size
+						(-) 50% slower reload time"
 						// (i) Custom model by =Fox= & Wannabe
-						// (+) Each hit adds +25% to damage up to +200%, reset after 12 seconds without hit
-	// }
+	}
 }

@@ -1,26 +1,25 @@
 "Items" {
 	// Requires attr_sapper_recharge_time.smx and attr_sapper_reprograms_buildings.smx
-	// "The Subjugated Saboteur" {
-		// "name" "The Subjugated Saboteur"
-		// "defindex" "933"
-		// "item_class" "tf_weapon_builder"
-		// "used_by_classes" {
-			// "spy" "building"
-		// }
-		// "keep_static_attrs" "0"
-		// "attributes_game" {
-			// "allowed in medieval mode" "0"
-			// "sapper damage penalty" "0" // -100%
-		// }
-		// "attributes_custom" {
-			// "sapper recharge time" "10"
-			// "sapper reprograms buildings" "sap_time=5 self_destruct_time=30 can_autoremove=0"
-		// }
-		// "description"	"Turn enemy Sentries, Dispensers and Teleporters against their masters.
-						// FOR JACK5 ONLY. Sapper recharging and reprogramming is not installed.
-						// Creator: Karma Charger
-						// (-) 100% sapper damage penalty"
-						// (+) Reprogram enemy building to your team after 5 seconds, self-destructs in 30 seconds
-						// (-) Sapper requires a 10 second recharge after use
-	// }
+	"The Subjugated Saboteur" {
+		"name" "The Subjugated Saboteur"
+		"defindex" "933" // Ap-Sap
+		"item_class" "tf_weapon_builder"
+		"used_by_classes" {
+			"spy" "building"
+		}
+		"keep_static_attrs" "0"
+		"attributes_game" {
+			"allowed in medieval mode" "0"
+			"sapper damage penalty" "0" // -100%
+		}
+		"attributes_custom" {
+			"sapper reprograms buildings" "sap_time=5 self_destruct_time=30 can_autoremove=0"
+			"sapper recharge time" "10"
+		}
+		"description"	"Turn enemy Sentries, Dispensers and Teleporters against their masters.
+						Creator: Karma Charger
+						(+) Reprogram enemy building to your team after 5 seconds, self-destructs in 30 seconds
+						(-) Sapper requires a 10 second recharge after use
+						(-) 100% sapper damage penalty"
+	}
 }

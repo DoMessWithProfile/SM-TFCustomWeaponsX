@@ -1,7 +1,7 @@
 "Items" {
 	"The Cavalier's Charger" {
 		"name" "The Cavalier's Charger"
-		"defindex" "132"
+		"defindex" "404" // Persian Persuader
 		"item_class" "tf_weapon_sword"
 		"used_by_classes" {
 			"demoman" "melee"
@@ -9,10 +9,10 @@
 		"keep_static_attrs" "0"
 		"attributes_game" {
 			"allowed in medieval mode" "1"
-			"is_a_sword" "72" // Sword
-			"charge time decreased" "0.5" // -0.5 sec
+			"is_a_sword" "72"
 			"item_meter_charge_rate" "1.4" // +40%
 			"mult charge turn control" "2" // +100%
+			"charge time decreased" "0.5" // -0.5 sec
 			"damage penalty" "0.7" // -30%
 		}
 		"description"	"Greater charging control at the cost of less reliable damage output.
@@ -20,7 +20,7 @@
 						(i) This weapon has a large melee range and deploys and holsters slower
 						(+) 40% faster meter charge rate
 						(+) +100% increase in turning control while charging
-						(-) 0.5 sec decrease in charge duration
+						(-) 0.5 second decrease in charge duration
 						(-) 30% damage penalty"
 	}
 }

@@ -1,7 +1,7 @@
 "Items" {
 	"The Anti-Flame Gun" {
 		"name" "The Anti-Flame Gun"
-		"defindex" "15"
+		"defindex" "15" // Minigun
 		"item_class" "tf_weapon_minigun"
 		"used_by_classes" {
 			"pyro" "primary"
@@ -9,12 +9,11 @@
 		"keep_static_attrs" "0"
 		"attributes_game" {
 			"allowed in medieval mode" "0"
-			"damage penalty" "0.5" // -50%
-			"aiming movespeed increased" "4" // +300%
 			"minigun spinup time decreased" "0" // +100%
+			"aiming movespeed increased" "4" // +300%
+			"damage penalty" "0.5" // -50%
 		}
 		"description"	"Minigun for Pyro that behaves the same as the Flame Thrower.
-						Used in '[TF2] What If the Pyro Wasn't a Pyromaniac?'.
 						Creator: Jack5
 						(+) 100% faster spin up time
 						(+) +300% faster move speed while deployed

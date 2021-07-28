@@ -1,7 +1,7 @@
 "Items" {
 	"The Fast Food Chain" {
 		"name" "The Fast Food Chain"
-		"defindex" "325"
+		"defindex" "325" // Boston Basher
 		"item_class" "tf_weapon_bat"
 		"used_by_classes" {
 			"scout" "melee"

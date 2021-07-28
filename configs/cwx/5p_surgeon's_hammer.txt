@@ -2,7 +2,7 @@
 	// Requires attr_weapon_always_gibs_on_kill.smx
 	"The Surgeon's Hammer" {
 		"name" "The Surgeon's Hammer"
-		"defindex" "1123"
+		"defindex" "1123" // Necro Smasher
 		"item_class" "saxxy"
 		"used_by_classes" {
 			"medic" "melee"
@@ -11,7 +11,7 @@
 		"attributes_game" {
 			"allowed in medieval mode" "1"
 			"damage bonus" "1.3" // +30%
-			"melee attack rate bonus" "1.20" // -20%
+			"melee attack rate bonus" "1.2" // -20%
 		}
 		"attributes_custom" {
 			"weapon always gibs on kill" "1"

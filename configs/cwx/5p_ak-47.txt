@@ -1,7 +1,7 @@
 "Items" {
 	"The AK-47" {
 		"name" "The AK-47"
-		"defindex" "16"
+		"defindex" "16" // SMG
 		"item_class" "tf_weapon_smg"
 		"used_by_classes" {
 			"sniper" "secondary"
@@ -20,8 +20,8 @@
 		// }
 		"description"	"Very sturdy machine gun that weighs down the Sniper.
 						Creator: Karma Charger
-						(+) +20% clip size
 						(+) 100% damage bonus
+						(+) +20% clip size
 						(+) +100% max secondary ammo on wearer
 						(-) 60% longer weapon switch
 						(-) 100% slower reload time"

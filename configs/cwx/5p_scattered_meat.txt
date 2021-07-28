@@ -1,7 +1,7 @@
 "Items" {
 	"The Scattered Meat" {
 		"name" "The Scattered Meat"
-		"defindex" "13"
+		"defindex" "13" // Scattergun
 		"item_class" "tf_weapon_scattergun"
 		"used_by_classes" {
 			"scout" "primary"

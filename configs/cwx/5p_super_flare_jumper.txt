@@ -1,7 +1,7 @@
 "Items" {
 	"The Super Flare Jumper" {
 		"name" "The Super Flare Jumper"
-		"defindex" "740"
+		"defindex" "740" // Scorch Shot
 		"item_class" "tf_weapon_flaregun"
 		"used_by_classes" {
 			"pyro" "secondary"
@@ -9,11 +9,11 @@
 		"keep_static_attrs" "0"
 		"attributes_game" {
 			"allowed in medieval mode" "0"
-			"mod flaregun fires pellets with knockback" "3" // Scorch Shot
-			"damage penalty" "0" // -100%
+			"mod flaregun fires pellets with knockback" "3"
 			"self dmg push force increased" "2" // +100%
 			"deploy time increased" "1.25" // +25%
 			"blast dmg to self increased" "1.5" // +50%
+			"damage penalty" "0" // -100%
 		}
 		"description"	"More mobility than the Scorch Shot, but cannot damage enemies.
 						Creator: Jack5

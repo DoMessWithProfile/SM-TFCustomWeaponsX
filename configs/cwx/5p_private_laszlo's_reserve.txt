@@ -1,7 +1,7 @@
 "Items" {
 	"Private Laszlo's Reserve" {
 		"name" "Private Laszlo's Reserve"
-		"defindex" "199"
+		"defindex" "199" // Shotgun
 		"item_class" "tf_weapon_shotgun"
 		"used_by_classes" {
 			"soldier" "secondary"
@@ -12,10 +12,10 @@
 		"keep_static_attrs" "0"
 		"attributes_game" {
 			"allowed in medieval mode" "0"
-			"damage bonus" "1.25" // +25%
 			"critboost on kill" "3"
+			"damage bonus" "1.25" // +25%
+			"weapon spread bonus" "1.1" // -10% accuracy
 			"clip size penalty" "0.5" // -50%
-			"weapon spread bonus" "1.1" // -10% accurate
 		}
 		// "attributes_custom" {
 			// "weaponmodel override" "models/weapons/c_models/c_enhanced_rowdy_rifle/c_enhanced_rowdy_rifle.mdl"

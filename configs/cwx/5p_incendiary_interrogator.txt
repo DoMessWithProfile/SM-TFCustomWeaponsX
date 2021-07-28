@@ -1,7 +1,7 @@
 "Items" {
 	"The Incendiary Interrogator" {
 		"name" "The Incendiary Interrogator"
-		"defindex" "460"
+		"defindex" "460" // Enforcer
 		"item_class" "tf_weapon_revolver"
 		"used_by_classes" {
 			"spy" "secondary"

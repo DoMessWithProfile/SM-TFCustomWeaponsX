@@ -1,8 +1,9 @@
 "Items" {
+	// Does not appear to work on Windows servers.
 	// Requires attr_medic_disable_active_regen.smx and joke_medigun_mod_drain_health.smx
 	"The Vampire" {
 		"name" "The Vampire"
-		"defindex" "411"
+		"defindex" "411" // Quick-Fix
 		"item_class" "tf_weapon_medigun"
 		"used_by_classes" {
 			"medic" "secondary"
@@ -10,12 +11,12 @@
 		"keep_static_attrs" "0"
 		"attributes_game" {
 			"allowed in medieval mode" "0"
-			"ubercharge rate bonus" "0.8" // -20%
 			"medigun charge is megaheal" "1"
+			"ubercharge rate bonus" "0.8" // -20%
 		}
 		"attributes_custom" {
+			"medigun drains health" "44" // -20 per second
 			"disable medic regen while active" "1"
-			"medigun drains health" "44" // 20 health per sec
 		}
 		"description"	"Enables the Medic to explore his morbid curiosities on the battlefield.
 						Creator: DoMess

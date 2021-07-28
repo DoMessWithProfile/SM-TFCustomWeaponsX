@@ -1,7 +1,7 @@
 "Items" {
 	"Gordon's Go To" {
 		"name" "Gordon's Go-To"
-		"defindex" "880"
+		"defindex" "880" // Freedom Staff
 		"item_class" "saxxy"
 		"used_by_classes" {
 			"scout" "melee"
@@ -17,14 +17,14 @@
 			"allowed in medieval mode" "1"
 			"overheal bonus" "2" // +100%
 			"crit vs burning players" "1"
+			"move speed penalty" "0.85" // -15%
 			"melee attack rate bonus" "1.25" // -25%
 			"reduced_healing_from_medics" "0.5" // -50%
-			"move speed penalty" "0.85" // -15%
 		}
 		"description"	"The best friend of a pocketed mercenary.
 						Creator: Just A Stinky Bot
-						(+) 100% critical hit vs burning players
 						(+) +100% max overheal
+						(+) 100% critical hit vs burning players
 						(-) 15% slower move speed on wearer
 						(-) 25% slower melee attack speed
 						(-) 50% less healing from Medic sources"

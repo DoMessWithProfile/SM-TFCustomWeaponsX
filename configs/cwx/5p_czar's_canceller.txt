@@ -1,7 +1,7 @@
 "Items" {
 	"The Czar's Canceller" {
 		"name" "The Czar's Canceller"
-		"defindex" "298"
+		"defindex" "298" // Iron Curtain
 		"item_class" "tf_weapon_minigun"
 		"used_by_classes" {
 			"heavy" "primary"
@@ -10,8 +10,8 @@
 		"attributes_game" {
 			"allowed in medieval mode" "0"
 			"attack projectiles" "2"
-			"damage penalty" "0.6" // -40%
 			"fire rate bonus" "0.8" // +20%
+			"damage penalty" "0.6" // -40%
 		}
 		"description"	"Destroys projectiles, but it comes with a severe damage trade-off.
 						Creator: Major Hawk10
