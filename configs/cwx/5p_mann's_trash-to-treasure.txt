@@ -1,0 +1,27 @@
+"Items" {
+	// Requires airblast_projectiles_restores_health.smx
+	"The Mann's Trash-to-Treasure" {
+		"name" "The Mann's Trash-to-Treasure"
+		"defindex" "21"
+		"item_class" "tf_weapon_flamethrower"
+		"used_by_classes" {
+			"pyro" "primary"
+		}
+		"keep_static_attrs" "0"
+		"attributes_game" {
+			"allowed in medieval mode" "0"
+			"airblast_destroy_projectile" "1"
+			"airblast cost increased" "1.5" // +50%
+			"maxammo secondary increased" "1.25" // +25%
+		}
+		"attributes_custom" {
+			"airblast projectiles restores health" "85"
+		}
+		"description"	"Heals from and destroys airblasted projectiles, but airblast costs more.
+						Creator: DoMess
+						(i) Airblast destroys projectiles
+						(+) Airblasting projectiles restores 85 health on wearer
+						(+) +25% max secondary ammo on wearer
+						(-) +50% airblast cost"
+	}
+}

@@ -1,0 +1,26 @@
+"Items" {
+	"The Scattered Meat" {
+		"name" "The Scattered Meat"
+		"defindex" "13"
+		"item_class" "tf_weapon_scattergun"
+		"used_by_classes" {
+			"scout" "primary"
+		}
+		"keep_static_attrs" "0"
+		"attributes_game" {
+			"allowed in medieval mode" "0"
+			"damage bonus" "1.5" // +50%
+			"maxammo primary increased" "1.5" // +50%
+			"fire rate penalty" "1.1" // -10%
+			"reload time increased" "1.1" // +10%
+			"weapon spread bonus" "1.5" // -50% accuracy
+		}
+		"description"	"Great for meatshots but suffers at long range.
+						Creator: DoMess
+						(+) +50% damage bonus
+						(+) +50% max primary ammo on wearer
+						(-) 10% slower firing speed
+						(-) 10% slower reload time
+						(-) 50% less accurate"
+	}
+}

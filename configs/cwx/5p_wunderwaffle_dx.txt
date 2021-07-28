@@ -1,0 +1,30 @@
+"Items" {
+	// Requires energy_ring_damage_radius.smx
+	"The Wunderwaffe DX" {
+		"name" "The Wunderwaffe DX"
+		"defindex" "588"
+		"item_class" "tf_weapon_drg_pomson"
+		"used_by_classes" {
+			"engineer" "primary"
+		}
+		"keep_static_attrs" "0"
+		"attributes_game" {
+			"allowed in medieval mode" "0"
+			"energy weapon no ammo" "1"
+			"reload time increased" "1.1" // +10%
+			"damage penalty" "0" // -100%
+			"projectile speed increased" "3" // 1200 x3
+		}
+		"attributes_custom" {
+			"energy ring damage radius on destroy" "damage=70 radius=75"
+			// "weaponmodel override" "models/weapons/c_models/c_recharger_rifle/c_recharger_rifle.mdl"
+		}
+		"description"	"Energy weapon that deals damage some distance from the particle impact.
+						Creator: Alastor the radio demon
+						(i) Deals 70 damage within 75 HU radius on surface contact, unable to get crits
+						(+) Does not require ammo
+						(+) +200% energy projectile speed
+						(-) 10% slower reload time"
+						// (i) Custom model by Just Jacob & Obsidian Entertainment
+	}
+}

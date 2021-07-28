@@ -1,0 +1,30 @@
+"Items" {
+	"The AK-47" {
+		"name" "The AK-47"
+		"defindex" "16"
+		"item_class" "tf_weapon_smg"
+		"used_by_classes" {
+			"sniper" "secondary"
+		}
+		"keep_static_attrs" "0"
+		"attributes_game" {
+			"allowed in medieval mode" "0"
+			"damage bonus" "2" // +100%
+			"clip size bonus" "1.2" // +20%
+			"maxammo secondary increased" "2" // +100%
+			"deploy time increased" "1.6" // +60%
+			"reload time increased" "2" // +100%
+		}
+		// "attributes_custom" {
+			// "weaponmodel override" "models/weapons/c_models/c_ak47/c_ak47.mdl"
+		// }
+		"description"	"Very sturdy machine gun that weighs down the Sniper.
+						Creator: Karma Charger
+						(+) +20% clip size
+						(+) 100% damage bonus
+						(+) +100% max secondary ammo on wearer
+						(-) 60% longer weapon switch
+						(-) 100% slower reload time"
+		// (i) Custom model by Bl8demast3r, DanielAwesomo & An Aggressive Napkin
+	}
+}

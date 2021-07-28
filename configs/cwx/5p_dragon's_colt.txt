@@ -1,0 +1,23 @@
+"Items" {
+	"The Dragon's Colt" {
+		"name" "The Dragon's Colt"
+		"defindex" "209"
+		"item_class" "tf_weapon_pistol"
+		"used_by_classes" {
+			"scout" "secondary"
+			"engineer" "secondary"
+		}
+		"keep_static_attrs" "0"
+		"attributes_game" {
+			"allowed in medieval mode" "0"
+			"set damagetype ignite" "5"
+			"damage penalty" "0.75" // -25%
+			"clip size penalty" "0.5" // -50%
+		}
+		"description"	"Weak pistol that deals long-lasting fire damage.
+						Creator: TposeKing
+						(+) On Hit: target is engulfed in flames for 5 seconds
+						(-) 25% damage penalty
+						(-) 50% clip size"
+	}
+}

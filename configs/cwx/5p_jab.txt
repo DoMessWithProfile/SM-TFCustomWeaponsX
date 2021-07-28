@@ -1,0 +1,26 @@
+"Items" {
+	"The Jab" {
+		"name" "The Jab"
+		"defindex" "17"
+		"item_class" "tf_weapon_syringegun_medic"
+		"used_by_classes" {
+			"medic" "primary"
+		}
+		"keep_static_attrs" "0"
+		"attributes_game" {
+			"allowed in medieval mode" "0"
+			"fire rate bonus with reduced health" "0.75" // +25%
+			"maxammo primary increased" "2" // +100%
+			"clip size bonus" "1.5" // +50%
+			"damage penalty" "0.85" // -15%
+			"reload time increased" "1.5" // +50%
+		}
+		"description"	"Burst-fire syringe gun for desperate situations.
+						Creator: DoMess
+						(+) Fire rate increases +25% as health decreases
+						(+) +50% clip size
+						(+) +100% max primary ammo on wearer
+						(-) 15% damage penalty
+						(-) 50% slower reload time"
+	}
+}

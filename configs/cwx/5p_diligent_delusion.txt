@@ -1,0 +1,32 @@
+"Items" {
+	// This weapon is not complete, since it requires a custom model, the Panic Attack.
+	// "The Diligent Delusion" {
+		// "name" "The Diligent Delusion"
+		// "defindex" "9"
+		// "item_class" "tf_weapon_shotgun_primary"
+		// "used_by_classes" {
+			// "scout" "primary"
+		// }
+		// "keep_static_attrs" "0"
+		// "attributes_game" {
+			// "allowed in medieval mode" "0"
+			// "move speed penalty" "0.75" // -25%
+			// "no double jump" "1"
+			// "max health additive bonus" "50"
+			// Panic Attack
+			// "damage penalty" "0.8" // -20%
+			// "single wep deploy time decreased" "0.5" // -50%
+			// "mult_spread_scales_consecutive" "1"
+			// "bullets per shot bonus" "1.5" // +50%
+		// }
+		// "description"	"Clone of the Panic Attack for the Scout.
+						// Creator: Jack5
+						// (+) +50% bullets per shot
+						// (+) This weapon deploys 50% faster
+						// (+) +50 max health on wearer
+						// (-) Disables double jump
+						// (-) Successive shots become less accurate
+						// (-) 20% damage penalty
+						// (-) 25% slower move speed on wearer"
+	// }
+}

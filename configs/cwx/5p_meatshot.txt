@@ -1,0 +1,29 @@
+"Items" {
+	"The Meatshot" {
+		"name" "The Meatshot"
+		"defindex" "199"
+		"item_class" "tf_weapon_shotgun"
+		"used_by_classes" {
+			"soldier" "secondary"
+			"pyro" "secondary"
+			"heavy" "secondary"
+			"engineer" "primary"
+		}
+		"keep_static_attrs" "0"
+		"attributes_game" {
+			"allowed in medieval mode" "0"
+			"damage bonus" "1.65" // +65%
+			"maxammo secondary increased" "1.5" // +50%
+			"fire rate penalty" "1.2" // -20%
+			"reload time increased" "1.2" // +20%
+			"weapon spread bonus" "1.5" // -50% accurate
+		}
+		"description"	"High-power shotgun that's useful more often but requires downtime.
+						Creator: DoMess
+						(+) +50% max secondary ammo on wearer
+						(+) +65% damage bonus
+						(-) 20% slower firing speed
+						(-) 20% slower reload time
+						(-) 50% less accurate"
+	}
+}

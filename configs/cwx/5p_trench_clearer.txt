@@ -1,0 +1,29 @@
+"Items" {
+	// Requires reload_full_clip_at_once.smx
+	"The Trench Clearer" {
+		"name" "The Trench Clearer"
+		"defindex" "10"
+		"item_class" "tf_weapon_shotgun_soldier"
+		"used_by_classes" {
+			"soldier" "secondary"
+		}
+		"keep_static_attrs" "0"
+		"attributes_game" {
+			"allowed in medieval mode" "0"
+			"fire rate bonus" "0.9" // +10%
+			"damage penalty" "0.9" // -10%
+			"maxammo secondary increased" "1.125" // +12%
+		}
+		"attributes_custom" {
+			"reload full clip at once" "2" // 0 load all, 1 pistol, 2 garand, 3 rifle
+			// "weaponmodel override" "models/weapons/c_models/c_warfare_enforcer/c_warfare_enforcer.mdl"
+		}
+		"description"	"Fast traditional firearm that discards unused bullets.
+						Creator: Major Hawk10
+						(i) Weapon replenishes entire clip on reload, maximum size of clip deducted on reload
+						(+) +10% faster firing speed
+						(+) +12% max secondary ammo on wearer
+						(-) 10% damage penalty"
+						// (i) Custom model by SMasters, CoBalt, SediSocks and Colteh
+	}
+}

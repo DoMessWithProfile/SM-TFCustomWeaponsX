@@ -1,0 +1,24 @@
+"Items" {
+	"The Incendiary Interrogator" {
+		"name" "The Incendiary Interrogator"
+		"defindex" "460"
+		"item_class" "tf_weapon_revolver"
+		"used_by_classes" {
+			"spy" "secondary"
+		}
+		"keep_static_attrs" "0"
+		"attributes_game" {
+			"allowed in medieval mode" "0"
+			"set damagetype ignite" "2"
+			"crit vs burning players" "1"
+			"reload time increased" "1.25" // +25%
+			"damage penalty" "0.5" // -50%
+		}
+		"description"	"Send your enemies running with a fiery surprise.
+						Creator: DoMess
+						(+) On Hit: target is engulfed in flames for 2 seconds
+						(+) 100% critical hit vs burning players
+						(-) 25% slower reload time
+						(-) 50% damage penalty"
+	}
+}

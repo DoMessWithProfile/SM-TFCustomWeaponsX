@@ -1,0 +1,22 @@
+"Items" {
+	"The Fast Food Chain" {
+		"name" "The Fast Food Chain"
+		"defindex" "325"
+		"item_class" "tf_weapon_bat"
+		"used_by_classes" {
+			"scout" "melee"
+		}
+		"keep_static_attrs" "0"
+		"attributes_game" {
+			"allowed in medieval mode" "1"
+			"heal on hit for rapidfire" "12"
+			"damage bonus" "1.1" // +10%
+			"melee attack rate bonus" "1.1" // -10%
+		}
+		"description"	"Heals the user at the cost of swinging slower.
+						Creator: DoMess
+						(+) On Hit: Gain up to +12 health
+						(+) +10% damage bonus
+						(-) 10% slower melee attack speed"
+	}
+}
