@@ -13,14 +13,14 @@
 			"damage penalty" "0" // -100%
 			"self dmg push force increased" "2" // +100%
 			"deploy time increased" "1.25" // +25%
-			"boots falling stomp" "1" // Mantreads
+			"blast dmg to self increased" "1.5" // +50%
 		}
 		"description"	"More mobility than the Scorch Shot, but cannot damage enemies.
 						Creator: Jack5
 						(+) Flare knocks back on hit and explodes on ground, increased knockback on burning players
-						(+) Deals 3x falling damage to the player you land on
 						(+) +100% self damage force
 						(-) 25% longer weapon switch
+						(-) +50% damage to self
 						(-) 100% damage penalty"
 	}
 }

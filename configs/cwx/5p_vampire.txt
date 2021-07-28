@@ -1,28 +1,28 @@
 "Items" {
 	// Requires attr_medic_disable_active_regen.smx and joke_medigun_mod_drain_health.smx
-	// "The Vampire" {
-		// "name" "The Vampire"
-		// "defindex" "29"
-		// "item_class" "tf_weapon_medigun"
-		// "used_by_classes" {
-			// "medic" "secondary"
-		// }
-		// "keep_static_attrs" "0"
-		// "attributes_game" {
-			// "allowed in medieval mode" "0"
-			// "ubercharge rate bonus" "0.75" // -25%
-			// "medigun charge is megaheal" "1"
-		// }
-		// "attributes_custom" {
-			// "disable medic regen while active" "1"
-			// "medigun drains health" "44" // 20 health per sec
-		// }
-		// "description"	"Enables the Medic to explore his morbid curiosities on the battlefield.
-						// FOR SUPERS ONLY. Users are able to ÜberCharge enemies with no consequences.
-						// Creator: DoMess
-						// (i) ÜberCharge increases healing to 300% and grants immunity to movement-impairing effects
-						// (-) 75% ÜberCharge rate"
-						// (+) Medigun can latch onto enemies and drains 20 health per second, kills award 10% ÜberCharge
-						// (-) Natural healing regen disabled
-	// }
+	"The Vampire" {
+		"name" "The Vampire"
+		"defindex" "411"
+		"item_class" "tf_weapon_medigun"
+		"used_by_classes" {
+			"medic" "secondary"
+		}
+		"keep_static_attrs" "0"
+		"attributes_game" {
+			"allowed in medieval mode" "0"
+			"ubercharge rate bonus" "0.8" // -20%
+			"medigun charge is megaheal" "1"
+		}
+		"attributes_custom" {
+			"disable medic regen while active" "1"
+			"medigun drains health" "44" // 20 health per sec
+		}
+		"description"	"Enables the Medic to explore his morbid curiosities on the battlefield.
+						Creator: DoMess
+						(i) ÜberCharge increases healing to 300% and grants immunity to movement-impairing effects
+						(i) Weapon always gibs players
+						(+) Medigun can latch onto enemies and drains 20 health per second, kills award 10% ÜberCharge
+						(-) Natural healing regen disabled
+						(-) 80% ÜberCharge rate"
+	}
 }

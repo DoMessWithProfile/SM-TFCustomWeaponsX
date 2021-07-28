@@ -16,12 +16,12 @@
 			"projectile speed increased" "3" // 1200 x3
 		}
 		"attributes_custom" {
-			"energy ring damage radius on destroy" "damage=70 radius=75"
+			"energy ring damage radius on destroy" "damage=65 radius=75"
 			// "weaponmodel override" "models/weapons/c_models/c_recharger_rifle/c_recharger_rifle.mdl"
 		}
 		"description"	"Energy weapon that deals damage some distance from the particle impact.
 						Creator: Alastor the radio demon
-						(i) Deals 70 damage within 75 HU radius on surface contact, unable to get crits
+						(i) Deals 65 damage within 75 HU radius on surface contact, unable to get crits
 						(+) Does not require ammo
 						(+) +200% energy projectile speed
 						(-) 10% slower reload time"

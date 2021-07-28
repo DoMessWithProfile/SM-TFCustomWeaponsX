@@ -9,18 +9,20 @@
 		"keep_static_attrs" "0"
 		"attributes_game" {
 			"allowed in medieval mode" "0"
-			"damage bonus" "2" // +100%
+			"damage bonus" "1.5" // +50%
 			"blast radius increased" "1.25" // +25%
 			"fire rate penalty" "1.7" // -70%
 			"reload time increased" "1.5" // +50%
 			"projectile speed decreased" "0.60" // -40%
 			"deploy time increased" "1.333" // +33.3%
+			"blast dmg to self increased" "1.5" // +50%
 		}
 		"description"	"Overpowered rocket launcher that is out of action for much longer.
 						Creator: DoMess
-						(+) +100% damage bonus
+						(+) +50% damage bonus
 						(+) +25% explosion radius
 						(-) 33% longer weapon switch
+						(-) +50% damage to self
 						(-) 50% slower reload time
 						(-) 60% projectile speed
 						(-) 70% slower firing speed"

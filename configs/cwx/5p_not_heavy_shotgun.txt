@@ -11,10 +11,12 @@
 			"allowed in medieval mode" "0"
 			"maxammo primary reduced" "0.16" // 32/200 reserve ammo
 			"max health additive penalty" "-100"
+			"damage bonus" "1.15" // +15%
 		}
 		"description"	"Shotgun for Heavy's primary slot that greatly reduces health.
 						Used in '[TF2] What If the Heavy Weapons Guy Wasn't Heavy?'.
 						Creator: Jack5
+						(+) +15% damage bonus
 						(-) -100 max health on wearer"
 	}
 }
