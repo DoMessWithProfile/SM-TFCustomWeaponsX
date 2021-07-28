@@ -10,7 +10,7 @@
 		// "keep_static_attrs" "0"
 		// "attributes_game" {
 			// "allowed in medieval mode" "0"
-			// "maxammo primary increased" "4.995" // +400%
+			// "maxammo primary increased" "4" // +300%
 			// "fire rate bonus" "0.66" // +33%
 			// "minigun no spin sounds" "1"
 			// "minigun spinup time increased" "1.33" // +33%
@@ -25,7 +25,7 @@
 						// Creator: DoMess
 						// (+) Silent Killer: No barrel spin sound
 						// (+) +33% faster firing speed
-						// (+) +400% max primary ammo on wearer
+						// (+) +300% max primary ammo on wearer
 						// (-) 33% slower spin up time
 						// (-) 75% slower move speed while deployed"
 						// (i) Custom model by Dejected Angel and Snood 1990
