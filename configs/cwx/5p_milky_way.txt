@@ -1,0 +1,27 @@
+"Items" {
+	// Requires condition_stack_on_hit.smx
+	"The Milky Way" {
+		"name" "The Milky Way"
+		"defindex" "773" // Pretty Boy's Pocket Pistol
+		"item_class" "tf_weapon_handgun_scout_secondary"
+		"used_by_classes" {
+			"scout" "secondary"
+		}
+		"keep_static_attrs" "0"
+		"attributes_game" {
+			"allowed in medieval mode" "0"
+			"clip size bonus" "1.2" // +20%
+			"damage penalty" "0.75" // -25%
+			"reload time increased" "1.1" // +10%
+		}
+		"attributes_custom" {
+			"condition stack on hit" "condition=27 falloff_range_max=768 duration_at_min=0.25 duration_at_max=1 max_duration=10 additive=1"
+		}
+		"description"	"The shooting addict's alternative to the Mad Milk.
+						Creator: panzerkampfwaggen
+						(+) On Hit: Applies Mad Milk which can stack up to 10 seconds
+						(+) +20% clip size
+						(-) 25% damage penalty
+						(-) 10% slower reload time"
+	}
+}

@@ -1,0 +1,27 @@
+"Items" {
+	// Requires tag_last_enemy_hit.smx
+	"The Pull-Back Punisher" {
+		"name" "The Pull-Back Punisher"
+		"defindex" "30665" // Shooting Star
+		"item_class" "tf_weapon_sniperrifle"
+		"used_by_classes" {
+			"sniper" "primary"
+		}
+		"keep_static_attrs" "0"
+		"attributes_game" {
+			"allowed in medieval mode" "0"
+			"sniper full charge damage bonus" "1.1" // +10%
+			"sniper only fire zoomed" "1"
+			"sniper charge per sec" "0.85" // -15%
+		}
+		"attributes_custom" {
+			"tag last enemy hit" "5"
+		}
+		"description"	"Reflexively fire at retreating enemies for your team to harass.
+						Creator: Jack5
+						(+) Hit enemies glow through walls for teammates for 5 seconds
+						(+) On Full Charge: +10% damage per shot
+						(-) Cannot fire unless zoomed
+						(-) 85% charge rate"
+	}
+}
