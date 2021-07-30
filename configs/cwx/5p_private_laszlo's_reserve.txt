@@ -12,20 +12,20 @@
 		"keep_static_attrs" "0"
 		"attributes_game" {
 			"allowed in medieval mode" "0"
-			"critboost on kill" "3"
+			"critboost on kill" "2"
 			"damage bonus" "1.25" // +25%
 			"weapon spread bonus" "1.1" // -10% accuracy
-			"clip size penalty" "0.5" // -50%
+			"clip size penalty" "0.669" // -33%
 		}
 		// "attributes_custom" {
 			// "weaponmodel override" "models/weapons/c_models/c_enhanced_rowdy_rifle/c_enhanced_rowdy_rifle.mdl"
 		// }
 		"description"	"Rewards close-range accuracy with easier successive kills.
 						Creator: Just A Stinky Bot
-						(+) On Kill: 3 seconds of 100% critical chance
+						(+) On Kill: 2 seconds of 100% critical chance
 						(+) +25% damage bonus
 						(-) 10% less accurate
-						(-) 50% clip size"
+						(-) 66% clip size"
 		// (i) Custom model by Snowy1701, kibbleknight & Ertz
 	}
 }
