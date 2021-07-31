@@ -11,17 +11,19 @@
 		"attributes_game" {
 			"allowed in medieval mode" "0"
 			"clip size penalty" "0.5" // -50%
-			"reload time increased" "1.5" // +50%
+			"reload time increased" "1.25" // +25%
+			"weapon spread bonus" "1.5" // -33% accuracy
 		}
 		"attributes_custom" {
-			"damage increase mult on hit" "amount=0.25 max=2 decay_start=12 reset_on_kill=0" // +25% on hit, max +200%, lose after 6 sec or on kill
+			"damage increase mult on hit" "amount=0.1 max=1 decay_start=12 reset_on_kill=0" // +10% on hit, max +100%, lose after 6 sec
 			// "weaponmodel override" "models/weapons/c_models/c_raging_bull/c_raging_bull.mdl"
 		}
 		"description"	"Place shots well and this weapon will get more powerful.
 						Creator: DoMess
-						(+) Each hit adds +25% to damage up to +200%, reset after 12 seconds without hit
+						(+) Each hit adds +10% to damage up to +100%, reset after 12 seconds without hit
 						(-) 50% clip size
-						(-) 50% slower reload time"
+						(-) 25% slower reload time
+						(-) 33% less accurate"
 						// (i) Custom model by =Fox= & Wannabe
 	}
 }
